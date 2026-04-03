@@ -2,6 +2,8 @@
 
 Our findings were published at the 2025 International Conference on Intelligent Computing in an article titled "FreqTime-HAR: Self-Supervised Multimodal Fusion via Transformer for Robust Human Activity Recognition".
 
+I am the first author of this article.
+
 Paper link: https://link.springer.com/chapter/10.1007/978-981-96-9891-2_38
 
 The SSMF-main folder contains detailed project descriptions and more model information.
