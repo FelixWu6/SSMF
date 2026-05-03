@@ -95,8 +95,8 @@ class SSMF(nn.Module):
             e_gyro2 = self.proj_A(f_gyro)
             e_gyro2_2 = self.proj_G(f_gyro2)
         else:
-            e_gyro2 = f_accel
-            e_gyro2_2 = f_accel2
+            e_gyro2 = f_gyro
+            e_gyro2_2 = f_gyro2
         logits3 = torch.mm(F.normalize(e_gyro2), F.normalize(e_gyro2_2).T) * torch.exp(self.temperature)
 
         # Self supervision 1 used TF to collect information from accelerometers and gyroscopes
